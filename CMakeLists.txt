@@ -14,3 +14,9 @@ target_link_libraries(
   bind
   ${catkin_LIBRARIES}
 )
+
+add_executable(shared_ptr src/shared_ptr.cpp)
+target_link_libraries(
+  shared_ptr
+  ${catkin_LIBRARIES}
+)
